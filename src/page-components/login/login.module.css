@@ -1,0 +1,70 @@
+.login {
+  height: 100%;
+  background: linear-gradient(122.33deg, #fff2f0 1.96%, #ebf7ff 90.46%);
+}
+.login .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login .logoRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 40px;
+}
+.login .logoRow .headerTitle {
+  margin: 0 8px 0 4px;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+.login .loginAreaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 92px;
+  background-color: var(--primary-bg-color);
+  border-radius: var(--img-radius);
+  padding: 40px;
+}
+
+.loginTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.submitContainer {
+  display: flex;
+  justify-content: center;
+}
+.loginFormRow {
+  margin-bottom: 16px;
+}
+
+.loginBtn {
+  margin: 0 0 16px;
+  width: 320px;
+  height: 44px;
+  /*background: linear-gradient(91deg, #fe701e 0.14%, #f04735 100%);*/
+  border-radius: 6px;
+  border: none;
+  box-shadow: none;
+}
+.loginBtn:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91deg, #fe701e 0.14%, #f04735 100%);
+}
+
+
+.logoRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 40px;
+}
+

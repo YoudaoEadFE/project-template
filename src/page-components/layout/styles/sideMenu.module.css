@@ -1,0 +1,94 @@
+.customMenu {
+  position: relative;
+  z-index: 999;
+  font-family: 'PingFang SC';
+  width: 200px;
+  font-size: 14px;
+  color: var(--text-color);
+  padding: 18px 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 41, 102, 0.03);
+}
+.customMenu .item {
+  position: relative;
+  line-height: 14px;
+  padding: 14px 0 14px 30px;
+  cursor: pointer;
+  border-left: 2px solid transparent;
+  margin-bottom: 4px;
+}
+.customMenu .item:hover {
+  color: var(--primary-color);
+}
+.customMenu .item .bgs {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.customMenu .item .bgs .bg1 {
+  position: absolute;
+  top: -16px;
+  left: 0px;
+}
+.customMenu .item .bgs .bg2 {
+  position: absolute;
+  left: 34px;
+  top: 0;
+}
+.customMenu .item-selected {
+  color: var(--primary-color);
+  border-left: 2px solid var(--primary-color);
+  background-color: #fef5f5;
+}
+.customMenu .subMenu {
+  margin-bottom: 4px;
+}
+.customMenu .subMenu .sub {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 30px;
+  border-left: 2px solid transparent;
+  cursor: pointer;
+  font-weight: 700;
+}
+.customMenu .subMenu .sub:hover {
+  color: var(--primary-color);
+}
+.customMenu .subMenu .sub:hover .icon {
+  color: var(--primary-color);
+}
+.customMenu .subMenu .sub .icon {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  height: 16px;
+  right: 24px;
+  top: 13px;
+  color: #9c9ea6;
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+}
+.customMenu .subMenu .sub-open .icon {
+  transform: rotate(0deg);
+}
+.customMenu .subMenu .sub-actived {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.customMenu .subMenu .subMenu-wrapper {
+  transition: all 0.3s;
+}
+.customMenu .subMenu .subMenu-open {
+  visibility: visible;
+}
+.customMenu .subMenu .item {
+  padding-left: 56px;
+  font-size: 14px;
+  font-weight: 400;
+}
