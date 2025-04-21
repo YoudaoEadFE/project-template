@@ -3,7 +3,7 @@
 
 * react v18.3.1
 * antd v5.22.2
-* nextjs v15.0.3
+* nextjs v15.3.1
 * node v20.17.0
 
 
